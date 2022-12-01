@@ -10,3 +10,5 @@ pgnPourcent handles several PGN format like :<br>
 - enhanced long algebraic (1. Ng1-f3 c7-c5 2. e2-e4 Nb8-c6 3. Bf1-b5 e7-e6 4. e1-g1 Ng8-e7 5. c2-c3 a7-a6...)<p>
 
 command : pgnPourcent.exe<p>
+
+![pgnPourcent](https://github.com/chris13300/pgnPourcent/blob/main/pgnPourcent/bin/x64/Debug/pgnPourcent.jpg)
