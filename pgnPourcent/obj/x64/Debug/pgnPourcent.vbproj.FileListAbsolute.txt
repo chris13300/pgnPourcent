@@ -1,0 +1,9 @@
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\bin\x64\Debug\pgnPourcent.exe.config
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\bin\x64\Debug\pgnPourcent.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\bin\x64\Debug\pgnPourcent.pdb
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\bin\x64\Debug\pgnPourcent.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\obj\x64\Debug\pgnPourcent.Resources.resources
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\obj\x64\Debug\pgnPourcent.vbproj.GenerateResource.Cache
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\obj\x64\Debug\pgnPourcent.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\obj\x64\Debug\pgnPourcent.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\obj\x64\Debug\pgnPourcent.pdb

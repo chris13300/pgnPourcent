@@ -1,0 +1,1 @@
+c:\users\chris\documents\visual studio 2013\Projects\pgnPourcent\pgnPourcent\bin\Debug\pgnPourcent.exe.config
