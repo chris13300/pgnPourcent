@@ -24,11 +24,6 @@ Module modMain
         Dim chaine As String, indexFichier As Integer, indexThread As Integer, reponse As String, victoire As Single
         Dim ecoule As Long, tabEcoule() As String, message As String, i As Integer, tabVisites(20) As Long, tabChaines(20) As String, tabVictoires(20) As Single
 
-        If My.Computer.FileSystem.GetFileInfo(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) & "\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\bin\x64\Debug\pgnPourcent.exe").LastWriteTime > My.Computer.FileSystem.GetFileInfo(My.Application.Info.AssemblyName & ".exe").LastWriteTime Then
-            MsgBox("Il existe une version plus récente de ce programme !", MsgBoxStyle.Information)
-            End
-        End If
-
         tabCoups(1) = "a3 "
         tabCoups(2) = "a4 "
         tabCoups(3) = "b3 "
@@ -137,7 +132,7 @@ Module modMain
 
         Console.Clear()
         tabEcoule = Split(secJHMS(ecoule), ";")
-        Console.Title = My.Computer.Name & " (" & Format(nbFichiersTraites / nbFichiers, "0.00%") & ") : " & tabEcoule(0) & "jrs " & tabEcoule(1) & "hrs " & tabEcoule(2) & "min " & tabEcoule(3) & "sec"
+        Console.Title = My.Computer.Name & " (" & Format(nbFichiersTraites / nbFichiers, "0.00%") & ") : " & tabEcoule(0) & "days " & tabEcoule(1) & "hrs " & tabEcoule(2) & "min " & tabEcoule(3) & "sec"
         Console.WriteLine(Trim(Format(nbParties(0) / ecoule, "# ### ##0 games/sec")) & " (" & Trim(Format(nbParties(0), "# ### ##0")) & ") :")
 
         For i = 1 To 20
@@ -178,7 +173,7 @@ Module modMain
 
         Console.WriteLine(message)
 
-        Console.WriteLine("Press a key to exit")
+        Console.WriteLine("Press ENTER to close this window.")
         Console.ReadLine()
 
     End Sub
@@ -201,7 +196,7 @@ Module modMain
 
         Console.Clear()
         tabEcoule = Split(secJHMS(ecoule), ";")
-        Console.Title = My.Computer.Name & " (" & Format(nbFichiersTraites / nbFichiers, "0.00%") & ") : " & tabEcoule(0) & "jrs " & tabEcoule(1) & "hrs " & tabEcoule(2) & "min " & tabEcoule(3) & "sec"
+        Console.Title = My.Computer.Name & " (" & Format(nbFichiersTraites / nbFichiers, "0.00%") & ") : " & tabEcoule(0) & "days " & tabEcoule(1) & "hrs " & tabEcoule(2) & "min " & tabEcoule(3) & "sec"
         Console.WriteLine(Trim(Format(nbParties(0) / ecoule, "# ### ##0 games/sec")) & " (" & Trim(Format(nbParties(0), "# ### ##0")) & ") :")
 
         For i = 1 To 20
