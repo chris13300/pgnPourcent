@@ -24,11 +24,6 @@ Module modMain
         Dim chaine As String, indexFichier As Integer, indexThread As Integer, reponse As String, victoire As Single
         Dim ecoule As Long, tabEcoule() As String, message As String, i As Integer, tabVisites(20) As Long, tabChaines(20) As String, tabVictoires(20) As Single
 
-        If My.Computer.FileSystem.GetFileInfo(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) & "\Documents\Visual Studio 2013\Projects\pgnPourcent\pgnPourcent\bin\x64\Debug\pgnPourcent.exe").LastWriteTime > My.Computer.FileSystem.GetFileInfo(My.Application.Info.AssemblyName & ".exe").LastWriteTime Then
-            MsgBox("Il existe une version plus récente de ce programme !", MsgBoxStyle.Information)
-            End
-        End If
-
         tabCoups(1) = "a3 "
         tabCoups(2) = "a4 "
         tabCoups(3) = "b3 "
