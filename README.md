@@ -3,7 +3,7 @@ Tool to get some statistics of the first moves<p>
 
 Prerequisites :<br>
 Your PGN files should be uncommented and should be in the same directory as the executable (or in a [subdirectory](https://github.com/chris13300/pgnPourcent/blob/main/pgnPourcent/modMain.vb#L57)).<br>
-Games with a [custom starting position](https://github.com/chris13300/pgnPourcent/blob/main/pgnPourcent/modMain.vb#L282) will be ignored.<p>
+Games with a [custom starting position](https://github.com/chris13300/pgnPourcent/blob/main/pgnPourcent/modFonctions.vb#L47) will be ignored.<p>
   
 pgnPourcent handles several PGN formats like :<br>
 - hyphenated long algebraic (1. g1-f3 c7-c5 2. e2-e4 d7-d6 3. d2-d4 c5-d4 4. f3-d4 g8-f6 5. b1-c3 e7-e6...)<br>
